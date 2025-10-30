@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwincss</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+ 
+<!-- colors -->
+    <div class="bg-gray-500 border border-white">
+           <h1 class="text-3xl text-yellow-500 font-bold underline">Hello world!</h1>
+    </div>
+    <!-- border colors -->
+     <div class="bg-indigo-300 border border-red-400">
+           <h1 class="text-3xl text-yellow-500 font-bold underline">Hello world!</h1>
+    </div>
+    <!-- arbitrary colors -->
+     <input type="text" class="border border-[yellow] bg-[gray]">
+
+     <!-- space and containers -->
+      <div class=" bg-[violet] mx-15 my-15 px-20 py-20     ">
+        Lorem ipsum dolor sit amet
+         consectetur adipisicing elit.
+          Recusandae, eaque sunt amet 
+          vitae nam voluptatem perspiciatis
+           labore facere odio animi
+         quod distinctio, libero magni molestias
+          a necessitatibus incidunt debitis pariatur.
+      </div>
+      <!-- space-between -->
+       <div class="flex space-x-2 bg-cyan-500 mt-10 p-10">
+        <div class="bg-green-100 p-3 border border-red-900">    consectetur adipisicing elit.
+          Recusandae, eaque sunt amet 
+          vitae nam voluptatem perspiciati
+        </div>
+         <div class="bg-green-100 p-3">    consectetur adipisicing elit.
+          Recusandae, eaque sunt amet 
+          vitae nam voluptatem perspiciati
+        </div>
+         <div class="bg-green-100 p-3">    consectetur adipisicing elit.
+          Recusandae, eaque sunt amet 
+          vitae nam voluptatem perspiciati
+        </div>
+       </div>
+
+       <!-- typography -->
+
+       <div class="text-sm bg-red-600">here we go</div>
+       <div class="text-base bg-red-500">here we go</div>
+       <div class="text-lg bg-red-400" >here we go</div>
+       <div class="text-xl bg-red-300">here we go</div>
+       <div class="text-2xl bg-red-900">here we go</div>
+       <div class="text-3xl bg-red-800">here we go</div>
+       <div class="text-4xl bg-red-700">here we go</div>
+       <div class="text-5xl bg-red-600">here we go</div>
+       <div class="text-6xl bg-red-500">here we go</div>
+       <div class="text-7xl bg-red-400">here we go</div>
+       <div class="text-8xl bg-red-300">here we go</div>
+       <div class="text-9xl bg-red-200">here we go</div>
+       <div class="text-9xl bg-red-200">here we go</div>
+
+
+       <!-- font-family -->
+        <div class="flex space-y-2  bg-gradient-to-t from-blue-500 via-purple-500 text-orange-600 ">
+          <div class="m-10 bg-blue-400 p-5 rounded-tl-2xl text-red-600 text-sm ">Lorem ipsum dolor sit amet..</div>
+          <div  class="m-10 bg-blue-400 p-5 rounded-tr-2xl text-green-600 text-base">Lorem ipsum dolor sit amet..</div>
+          <div  class="m-10 bg-blue-400 p-5 rounded-bl-2xl text-blue-600 text-lg" >Lorem ipsum dolor sit amet..</div>
+          <div  class="m-10 bg-blue-400 p-5 rounded-br-2xl text-orange-600 text-2xl">Lorem ipsum dolor sit amet..</div>
+        </div>
+         <!-- <button class="w-full h-100  bg-gradient-to-t via-green-300 from-black to-black">button gradient</button> -->
+         <div class="flex space-between h-50 bg-gradient-to-t from-black via-green-300 to-black">
+          <div class="w-40 h-50 bg-black  ">div1</div>
+          <div class="w-40 h-50 bg-black ">div2</div>
+         </div>
+
+
+  </body>
+</html>
